@@ -1,0 +1,37 @@
+2. git clone git@github.com:<your_account_name>/ip2022-git-and-github-advanced-templete.git
+3. git checkout 8026dc8 
+   cat 
+   git checkout main
+4. git checkout lupin
+   nano Patronus.txt
+   Wolf
+5. git checkout harry
+   nano Patronus.txt 
+   Stag
+6. git checkout harry2
+   git merge harry2
+   nano Patronus.txt 
+   (format the text so that STAG is bellow HARRY'S PATRONUS and the picture of the stag is bellow STAG)
+   git add . 
+   git commit -m 'merge harry and harry2'
+7. git checkout main
+   git branch hermione
+   git checkout hermione
+   nano Patronus.txt
+   (add text from hermiones_patronus.txt)
+   git add . 
+   git commit -m "add Hermione's Otter Patronus"
+   git push --set-upstream origin hermione
+8. git checkout main
+   git branch ron
+   git checkout ron
+   nano Patronus.txt
+   (add text from rons_patronus.txt)
+   git add . 
+   git commit -m "add Ron's Jack Russell Terier Patronus"
+   git push --set-upstream origin ron
+9. git checkout main
+   git branch voldemort
+   git branch
+   git checkout <name_of_any_other_branch>
+   git branch -d voldemort
