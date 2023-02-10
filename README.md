@@ -18,3 +18,5 @@ Commands covered on this workshop:
 - git push --set-upstream
 - git merge
 - git branch -d
+
+my contribution to this repository 
